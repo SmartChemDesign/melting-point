@@ -11,4 +11,4 @@ Dubonos et al., "Hybrid Machine Learning and Graph Neural Network Approaches for
 
 ## Contact
 
-For questions and collaboration, contact Alexander S. Novikov at novikovradio.chem.msu.ru.
+For questions and collaboration, contact Alexander S. Novikov at novikov@radio.chem.msu.ru.
