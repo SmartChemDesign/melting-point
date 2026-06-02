@@ -7,7 +7,7 @@ This repository contains the code implementation and data processing scripts for
 
 If you use this code or dataset, please cite:
 
-Dubonos et al., "Hybrid Machine Learning and Graph Neural Network Approaches for Accurate Melting Point Prediction of Organic Crystals," [Journal/Preprint details], 2025.
+Dubonos et al., "Hybrid Machine Learning and Graph Neural Network Approaches for Accurate Melting Point Prediction of Organic Crystals," [Journal/Preprint details], 2026.
 
 ## Contact
 
