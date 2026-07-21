@@ -47,7 +47,7 @@ def run_single_run(seed, run_number):
     if torch.cuda.is_available():
         torch.cuda.manual_seed_all(seed)
     
-    train_df, temp_df = train_test_split(df, test_size=0.3, random_state=seed)
+    train_df, temp_df = train_test_split(df, test_size=0.2, random_state=seed)
     val_df, test_df = train_test_split(temp_df, test_size=0.5, random_state=seed)
     
     print(f"Train size: {len(train_df)}, Val size: {len(val_df)}, Test size: {len(test_df)}")
