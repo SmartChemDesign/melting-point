@@ -10,7 +10,7 @@ NEW_SEED = 333
 
 np.random.seed(NEW_SEED)
 
-def load_megnet_dataset(pkl_path, test_size=0.15, seed=NEW_SEED):
+def load_megnet_dataset(pkl_path, test_size=0.2, seed=NEW_SEED):
     
     with open(pkl_path, 'rb') as f:
         data = pickle.load(f)
