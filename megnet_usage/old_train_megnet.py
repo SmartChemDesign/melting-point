@@ -6,11 +6,11 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 import pickle
 from sklearn.model_selection import train_test_split
 
-NEW_SEED = 333
+SEED = 42
 
 np.random.seed(NEW_SEED)
 
-def load_megnet_dataset(pkl_path, test_size=0.2, seed=NEW_SEED):
+def load_megnet_dataset(pkl_path, test_size=0.2, seed=SEED):
     
     with open(pkl_path, 'rb') as f:
         data = pickle.load(f)
